@@ -1,7 +1,7 @@
 ﻿$("#btn").on("click", function () {
     let OGforward = $("input").val();
     let OGreverse = OGforward.split("").reverse().join("");
-    let forward = $("input").val().toLowerCase().replace(/\s/g, '').replace(/\./g, '').replace(/\,/g, '');
+    let forward = $("input").val().toLowerCase().replace(/\s/g, '').replace(/\./g, '').replace(/\,/g, '').replace(/\!/g, '').replace(/\?/g, '').replace(/\-/g, '');
     let reverse = forward.split("").reverse().join("");
     if (forward == reverse) {
         $("#result").text(`The word/phrase "${OGforward}" is a palindrome. In reverse, it is still "${OGforward}"`);
