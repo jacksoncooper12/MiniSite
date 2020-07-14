@@ -4,10 +4,10 @@
     let forward = $("input").val().toLowerCase().replace(/\s/g, '').replace(/\./g, '').replace(/\,/g, '').replace(/\!/g, '').replace(/\?/g, '').replace(/\-/g, '');
     let reverse = forward.split("").reverse().join("");
     if (forward == reverse) {
-        $("#result").text(`The word/phrase "${OGforward}" is a palindrome. In reverse, it is still "${OGforward}"`);
+        $("#result").html(`The word/phrase "${OGforward}" <span class="true">is a palindrome</span>.`);
     }
     else {
-        $("#result").text(`The word/phrase "${OGforward}" is not a palindrome. "${OGforward}" in reverse is "${OGreverse}"`)
+        $("#result").html(`The word/phrase "${OGforward}" <span class="false">is not a palindrome.</span> "${OGforward}" in reverse is "${OGreverse}"`)
     }
 })
 $("#clear").on("click", function () {

@@ -16,3 +16,13 @@
 .titlepad {
     padding-top: 20px;
 }
+.true{
+    color:green;
+}
+.false{
+    color:red;
+}
+.red{
+    background-color:red;
+    color:white;
+}
