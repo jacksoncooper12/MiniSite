@@ -71,6 +71,7 @@
     <Content Include="css\main.css" />
     <Content Include="css\prism.css" />
     <Content Include="images\favicon-32x32.png" />
+    <Content Include="images\tcBG.jpg" />
     <Content Include="Index.html" />
     <Content Include="script\main.js" />
     <Content Include="script\prism.js" />
