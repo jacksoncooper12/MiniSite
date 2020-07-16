@@ -16,6 +16,13 @@
 .btnWide {
     width: 100%;
 }
+.buttonRound {
+    border-radius: 8px;
+}
+.inputPad {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
 .txtWide {
     margin-left: 0px;
